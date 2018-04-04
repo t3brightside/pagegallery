@@ -8,6 +8,7 @@ page.includeCSS.pagegallery = EXT:pagegallery/Resources/Public/Styles/pagegaller
 
 tt_content.defaultpagegallery =< lib.fluidContent
 tt_content.defaultpagegallery.templateRootPaths.200 = EXT:pagegallery/Resources/Private/Templates/
+tt_content.defaultpagegallery.partialRootPaths.200 = EXT:pagegallery/Resources/Private/Partials
 tt_content.pagegallery_sub =< tt_content.defaultpagegallery
 tt_content.pagegallery_sub {
     templateName = Pagegallery

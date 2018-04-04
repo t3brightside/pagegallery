@@ -1,0 +1,12 @@
+<f:if condition="{page.files.0}">
+  <div class="pagegallery-item">
+    <a href="{page.link}" target="{page.target}" title="{page.data.title}">
+      <figure>
+        <img src="<f:uri.image image="{page.files.0}" treatIdAsReference="1" width="354c" height="354c" />" />
+      </figure>
+    </a>
+  </div>
+</f:if>
+<f:if condition="{iterator.isLast}!=1">
+  <div class="pagegallery-space"></div>
+</f:if>
